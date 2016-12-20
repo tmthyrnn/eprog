@@ -7,11 +7,11 @@ int main (){
 	printf("Enter number:n ");
 	scanf("%d", &n);
 	    
-    if(n % 3==0){
-       printf("pogi");
-    
-    }
     if(n % 5==0){
        printf("ed");
+    
+    }
+    if(n % 3==0){
+       printf("pogi");
     }
 }
