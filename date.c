@@ -9,14 +9,14 @@ int main (){
 	printf("Enter day: 1-7 ");
 	scanf("%d", &d);
 	    
-    if(n ==1 ){
+        if(n ==1 ){
        printf("January");
     
-    }
-    if(n==2){
+        }
+        if(n==2){
        printf("february");
-    }
-    if(n==3){
+        }
+        if(n==3){
     	printf("march");
 	}
 	if(n==4){
@@ -27,8 +27,8 @@ int main (){
 	}
 	if(n==6){
 		printf("june");
-    }
-    if(n==7){
+        }
+        if(n==7){
     	printf("july");
 	}
 	if(n==8){
@@ -46,13 +46,10 @@ int main (){
 	if(n==12){
 		printf("december");
 	}
-    
-	
-	
-	if(d==1){
+        if(d==1){
 		printf("sunday");
-    }
-    if(d==2){
+        }
+        if(d==2){
     	printf("monday");
 	}
 	if(d==3){
